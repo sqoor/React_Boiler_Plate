@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import Todos from './components/Todos';
+import React, { Component } from "react";
+import Table from "./Components/Table";
+import "./App.css";
 
-export default class App extends Component {
-  state = {
-  };
-
+class App extends Component {
   render() {
     return (
       <>
-        <h1>Main Compnent</h1>
-        <Todos />
-      </ >
+        <h1 className="text-center mb-4">Dragons Zoo</h1>
+        <Table />
+      </>
     );
   }
 }
+
+export default App;
